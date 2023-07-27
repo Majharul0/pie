@@ -4,7 +4,7 @@ import DemoPie2 from "./donut2";
 function App() {
   return (
     <>
-      <div style={{display:'flex', width:'90vw', margin:'0 auto', gap:'100px'}}>
+      <div style={{display:'flex', width:'90vw', margin:'0 auto', gap:'100px', alignItems:'center',justifyContent:'center'}}>
         <DemoPie1 />
         <DemoPie2 />
       </div>
